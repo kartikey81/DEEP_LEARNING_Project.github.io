@@ -4,7 +4,7 @@ gluoncv
 
 numpy
 matplotlib
-pip install --upgrade pip setuptools wheel
+setuptools wheel
 pathlib
 seaborn
 SpeechRecognition
