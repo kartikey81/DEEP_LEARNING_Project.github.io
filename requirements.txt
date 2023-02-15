@@ -4,7 +4,7 @@ gluoncv
 
 numpy
 matplotlib
-setuptools wheel
+wheel
 pathlib
 seaborn
 SpeechRecognition
