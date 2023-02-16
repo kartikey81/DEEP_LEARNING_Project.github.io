@@ -1,7 +1,11 @@
 mxnet==1.5.0
 setuptools
 gluoncv
-
+gunicorn
+itsdangerous
+Jinja2
+MarkupSafe
+Werkzeug
 numpy
 matplotlib
 wheel
