@@ -8,9 +8,6 @@ wheel
 pathlib
 seaborn
 SpeechRecognition
-pip3
-python-pyaudio 
-python3-pyaudio
 pyaudio
 pydub
 gTTS
