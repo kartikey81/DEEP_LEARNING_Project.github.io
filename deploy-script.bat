@@ -1,4 +1,4 @@
-sudo apt-get install packages.txt
+sudo apt-get -y install packages.txt
 pip install --upgrade pip
 pip install pydub
 pip install pyaudio
