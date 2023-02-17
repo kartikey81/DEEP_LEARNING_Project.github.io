@@ -1,4 +1,4 @@
-xargs -a packages.txt sudo apt-get install
+sudo apt-get install -a packages.txt
 pip install --upgrade pip
 pip install pydub
 pip install pyaudio
