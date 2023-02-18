@@ -11,6 +11,9 @@ matplotlib
 wheel
 pathlib
 seaborn
+sounddevice
+soundfile
+audiolazy
 SpeechRecognition
 pydub
 gTTS
