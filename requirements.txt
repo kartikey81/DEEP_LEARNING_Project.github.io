@@ -17,7 +17,6 @@ audiolazy
 SpeechRecognition
 pydub
 gTTS
-hashlib
 IPython
 transformers
 streamlit
