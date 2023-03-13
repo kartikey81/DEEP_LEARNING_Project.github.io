@@ -37,7 +37,7 @@ file = st.camera_input("Take a picture") or st.file_uploader("Please upload imag
 
 #file= st.file_uploader("Please upload image for counting number of persons or Caption a Image", type=("jpg", "png"))
 
-import cv2
+
 from  PIL import Image, ImageOps
 
 rcParams['figure.figsize'] = 5, 10
