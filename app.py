@@ -140,28 +140,7 @@ if st.button("COUNT The Persons"):
     audio_bytes = audio_file.read()
     st.markdown(f"## Your audio in Hindi:")
     st.audio(audio_bytes, format="audio/mp3/wav", start_time=0)
-  if a == 0:
-
-    print('{} person detected in image.'.format(a))
-    text=str('{} person detected in image.'.format(a))
-    st.markdown(f"## Output text in English:")
-    st.write(text)
-    st.markdown(f"## Your audio in English:")
-    enaudio = entohi.englishspeech(text)
-    print(enaudio)
-    audio_file = open(f"{enaudio}","rb")
-    audio_bytes = audio_file.read()
-    st.audio(audio_bytes,format="audio/mp3/wav", start_time=0)
-    st.markdown(f"## Output text in Hindi")
-    hitext=entohi.convert(text)
-    print(hitext)
-    st.write('{}'.format(hitext))
-    hiaudio=entohi.hindispeech(hitext)
-    print(hiaudio)
-    audio_file = open(f"{hiaudio}", "rb")
-    audio_bytes = audio_file.read()
-    st.markdown(f"## Your audio in Hindi:")
-    st.audio(audio_bytes, format="audio/mp3/wav", start_time=0)   
+    
    
   else:
 
