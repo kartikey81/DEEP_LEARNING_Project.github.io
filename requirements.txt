@@ -1,6 +1,6 @@
 mxnet==1.5.0
 setuptools
-torch==1.4.0
+torch==1.13.0
 gluoncv
 gunicorn
 itsdangerous
