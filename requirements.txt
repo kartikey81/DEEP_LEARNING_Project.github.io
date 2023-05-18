@@ -1,5 +1,6 @@
 mxnet==1.5.0
 setuptools
+torch>=1.4.0,<2.0.0
 gluoncv
 gunicorn
 itsdangerous
@@ -22,6 +23,5 @@ transformers
 streamlit
 open_clip_torch
 huggingface_hub
-torch
 torchvision
 opencv-python-headless
